@@ -136,51 +136,29 @@ nav#go-enter {
 
 
 /*---- Menu e cards-----*/ 
-#menu {
-  margin: 1rem;
-  display: grid;
-  grid-template-columns: auto auto auto;
+
+
+.container-sobre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
 }
 
-.container-promo {
-display: block;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 1rem;
-margin-top: 1rem;
-max-width: 19rem;
+p{
 
-box-shadow: 1px 2px 7px 3px rgb(0 0 0 / 51%);
+  line-height: 2rem;
+
+  font-size: 18px;
+
+  font-family: 'DM sans';
 }
 
-.section-promo{
-  background-color: rgba(202, 191, 94, 0.267);
-  margin-bottom: 5rem;
-}
 
-.img-promo-bg{
-  padding: 1rem;
-  border-radius: 30px;
-}
-
-.img-promo {
-  padding: 1rem;
-
-}
 
 /*---- Resposividade -----*/ 
 @media (max-width: 940px) {
-   #menu {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- } .img-promo-bg {
-    display: none;
- } .img-promo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- } .img-footer{
+  .img-footer{
   display: none;
  }
 }

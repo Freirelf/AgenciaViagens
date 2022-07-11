@@ -213,6 +213,8 @@ form {
   background-image: none;
  } #formGroupExampleInput {
   width: 95%;
+ } #container {
+  height: 90rem;
  }
 }
 
