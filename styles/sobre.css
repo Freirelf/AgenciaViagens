@@ -151,7 +151,7 @@ p{
 
   font-size: 18px;
 
-  font-family: 'DM sans';
+  font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -163,6 +163,10 @@ p{
  }
 }
 
+.section-sobre {
+  display: grid;
+  grid-template-columns: auto auto ;
+}
 
 
 /*---- Footer -----*/ 
