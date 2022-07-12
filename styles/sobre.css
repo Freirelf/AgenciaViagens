@@ -5,8 +5,9 @@
   text-decoration: none;
   box-sizing: border-box;
   overflow-x: hidden;
-}
 
+  font-family: 'DM Sans', sans-serif;
+}
 
 /*---- GERAL -----*/
 body {
@@ -119,6 +120,14 @@ nav#go-enter {
   font-style: italic;
 
 }
+/*---- Resposividade -----*/ 
+@media (max-width: 940px) {
+  .img-footer{
+  display: none;
+ } p{
+  margin: 1rem;
+ }
+}
 
 /*---- H2-----*/ 
 .topicos{
@@ -134,10 +143,7 @@ nav#go-enter {
 
 }
 
-
-/*---- Menu e cards-----*/ 
-
-
+/*---- Section Informações -----*/ 
 .container-sobre {
   display: block;
   margin-left: auto;
@@ -146,34 +152,48 @@ nav#go-enter {
 }
 
 p{
-
   line-height: 2rem;
-
   font-size: 18px;
-
   font-family: 'DM Sans', sans-serif;
-}
-
-
-
-/*---- Resposividade -----*/ 
-@media (max-width: 940px) {
-  .img-footer{
-  display: none;
- }
 }
 
 .section-sobre {
   display: grid;
   grid-template-columns: auto auto ;
+  margin: 1rem;
+  margin-bottom: 2rem;
 }
 
+.section-info {
+  text-align: center;
+}
+
+h5 {
+  overflow: hidden;
+
+  background-image: linear-gradient(to left, transparent, rgba(190, 144, 58, 0.397), rgba(218, 190, 67, 0.603), transparent);
+}
+
+.section-info li{
+  text-align: left;
+  margin: .5rem;
+  
+}
+
+.section-redes{
+  text-align: center;
+  margin-top: 1.9rem;
+}
+
+.redes {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
 
 /*---- Footer -----*/ 
 #footer{
   background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
-  
-  
+   
   display: grid;
   grid-template-columns: auto auto auto;
   overflow: hidden; 

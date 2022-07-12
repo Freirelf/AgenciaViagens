@@ -5,6 +5,8 @@
   text-decoration: none;
   box-sizing: border-box;
   overflow-x: hidden;
+
+  font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -52,6 +54,10 @@ nav#go-enter {
 
 .image-assets {
   padding-bottom: 1rem;
+}
+
+h5{
+  overflow: hidden;
 }
 
 
