@@ -79,6 +79,9 @@ h2{
 
 h5{
   overflow: hidden;
+  background-color: aliceblue;
+  text-align: center;
+  
 }
 
 /*---- Caixa de texto Header -----*/
@@ -218,7 +221,7 @@ form {
 }
 
 #container {
-  height: 35rem;
+  height: 40rem;
 }
 
 .card {
@@ -249,6 +252,7 @@ div#card-commit.card{
   margin-top: -3px;
   margin-left: 10px;
 }
+
 
 /*---- Footer -----*/ 
 #footer{
